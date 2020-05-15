@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "32740d11-140a-4cbd-8a1a-d6415130b07c",
+		"name": "Teste Mexs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/routes/GRU-CDG",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/routes/GRU-CDG",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"routes",
+						"GRU-CDG"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/routes/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"from\": \"BRC\",\n\t\"to\": \"CDG\",\n\t\"price\": 654\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/routes/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"routes",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

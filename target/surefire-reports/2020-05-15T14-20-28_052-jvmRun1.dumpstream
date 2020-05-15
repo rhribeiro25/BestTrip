@@ -1,0 +1,336 @@
+# Created at 2020-05-15T14:20:48.188
+[SUREFIRE] std/in stream corrupted: first sequence not recognized
+
+# Created at 2020-05-15T14:21:27.942
+Unexpected IOException with stream: 2020-05-15 14:21:27.940  INFO 20444 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+# Created at 2020-05-15T14:21:27.950
+Unexpected IOException with stream: 2020-05-15 14:21:27.949 ERROR 20444 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:121) [spring-boot-test-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: java.lang.NullPointerException: null
+	at org.springframework.shell.jline.ParsedLineInput.words(ParsedLineInput.java:44) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.noInput(Shell.java:194) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.evaluate(Shell.java:151) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.run(Shell.java:134) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	... 32 common frames omitted
+
+
+
+# Created at 2020-05-15T14:21:27.957
+Unexpected IOException with stream: 2020-05-15 14:21:27.956  INFO 20444 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2020-05-15T14:21:27.960
+Unexpected IOException with stream: 2020-05-15 14:21:27.959 ERROR 20444 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@74f0ea28] to prepare test instance [com.rhribeiro25.bestTrip.BestTripApplicationTests@51d143a1]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:121) ~[spring-boot-test-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.15.RELEASE.jar:5.1.15.RELEASE]
+	... 27 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.springframework.shell.jline.ParsedLineInput.words(ParsedLineInput.java:44) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.noInput(Shell.java:194) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.evaluate(Shell.java:151) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.run(Shell.java:134) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772) ~[spring-boot-2.1.14.RELEASE.jar:2.1.14.RELEASE]
+	... 32 common frames omitted
+
+
+
+# Created at 2020-05-15T14:21:27.961
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.BestTripApplicationTests,contextLoads(com.rhribeiro25.bestTrip.BestTripApplicationTests),null,null,null
+
+
+# Created at 2020-05-15T14:21:27.965
+Unexpected IOException: 7,1,com.rhribeiro25.bestTrip.BestTripApplicationTests,contextLoads(com.rhribeiro25.bestTrip.BestTripApplicationTests),null,Failed to load ApplicationContext,null,Failed to load ApplicationContext,BestTripApplicationTests.contextLoads \00BB IllegalState Failed to load Applicatio...,java.lang.IllegalStateException: Failed to load ApplicationContext\000ACaused by: java.lang.IllegalStateException: Failed to execute ApplicationRunner\000ACaused by: java.lang.NullPointerException\000A
+
+
+# Created at 2020-05-15T14:21:27.967
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.BestTripApplicationTests,null,null,null
+
+
+# Created at 2020-05-15T14:21:27.967
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.controller.RouteControllerTest,null,null,null
+
+
+# Created at 2020-05-15T14:21:27.976
+Unexpected IOException with stream: 2020-05-15 14:21:27.975  INFO 20444 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rhribeiro25.bestTrip.controller.RouteControllerTest], using SpringBootContextLoader
+
+
+# Created at 2020-05-15T14:21:27.978
+Unexpected IOException with stream: 2020-05-15 14:21:27.977  INFO 20444 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rhribeiro25.bestTrip.controller.RouteControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2020-05-15T14:21:27.979
+Unexpected IOException with stream: 2020-05-15 14:21:27.978  INFO 20444 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rhribeiro25.bestTrip.controller.RouteControllerTest]: RouteControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2020-05-15T14:21:28.001
+Unexpected IOException with stream: 2020-05-15 14:21:28.000  INFO 20444 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rhribeiro25.bestTrip.BestTripApplication for test class com.rhribeiro25.bestTrip.controller.RouteControllerTest
+
+
+# Created at 2020-05-15T14:21:28.006
+Unexpected IOException with stream: 2020-05-15 14:21:28.004  INFO 20444 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2020-05-15T14:21:28.009
+Unexpected IOException with stream: 2020-05-15 14:21:28.008  INFO 20444 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d0cc890, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49293b43, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ff60a8c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ce4de34, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67b7c170, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@67440de6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@889d9e8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5246a3b3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@ba354ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c4f4365]
+
+
+# Created at 2020-05-15T14:21:28.048
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-15T14:21:28.049
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2020-05-15T14:21:28.049
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2020-05-15T14:21:28.050
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2020-05-15T14:21:28.050
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2020-05-15T14:21:28.051
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2020-05-15T14:21:28.051
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2020-05-15T14:21:28.052
+Unexpected IOException with stream:  :: Spring Boot ::       (v2.1.14.RELEASE)
+
+
+# Created at 2020-05-15T14:21:28.053
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-15T14:21:28.058
+Unexpected IOException with stream: 2020-05-15 14:21:28.057  INFO 20444 --- [           main] c.r.b.controller.RouteControllerTest     : Starting RouteControllerTest on DESKTOP-970ISBO with PID 20444 (started by rhrib in D:\OneDrive\Music\bestTrip)
+
+
+# Created at 2020-05-15T14:21:28.059
+Unexpected IOException with stream: 2020-05-15 14:21:28.058  INFO 20444 --- [           main] c.r.b.controller.RouteControllerTest     : The following profiles are active: test
+
+
+# Created at 2020-05-15T14:21:28.854
+Unexpected IOException with stream: 2020-05-15 14:21:28.853  INFO 20444 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2020-05-15T14:21:29.076
+Unexpected IOException with stream: 2020-05-15 14:21:29.075  INFO 20444 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2020-05-15T14:21:29.077
+Unexpected IOException with stream: 2020-05-15 14:21:29.076  INFO 20444 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2020-05-15T14:21:29.094
+Unexpected IOException with stream: 2020-05-15 14:21:29.093  INFO 20444 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+
+
+# Created at 2020-05-15T14:21:29.177
+Unexpected IOException with stream: 2020-05-15 14:21:29.177  WARN 20444 --- [           main] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+
+
+# Created at 2020-05-15T14:21:29.196
+Unexpected IOException with stream: 2020-05-15 14:21:29.195  INFO 20444 --- [           main] c.r.b.controller.RouteControllerTest     : Started RouteControllerTest in 1.178 seconds (JVM running for 60.86)
+
+
+# Created at 2020-05-15T14:21:29.210
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.controller.RouteControllerTest,findBestPriceStatusCode200(com.rhribeiro25.bestTrip.controller.RouteControllerTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.283
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.controller.RouteControllerTest,findBestPriceStatusCode200(com.rhribeiro25.bestTrip.controller.RouteControllerTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.284
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.controller.RouteControllerTest,findBestPriceStatusCode404(com.rhribeiro25.bestTrip.controller.RouteControllerTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.288
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.controller.RouteControllerTest,findBestPriceStatusCode404(com.rhribeiro25.bestTrip.controller.RouteControllerTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.289
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.controller.RouteControllerTest,saveNewFileStatusCode400(com.rhribeiro25.bestTrip.controller.RouteControllerTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.338
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.controller.RouteControllerTest,saveNewFileStatusCode400(com.rhribeiro25.bestTrip.controller.RouteControllerTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.339
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.controller.RouteControllerTest,null,null,null
+
+
+# Created at 2020-05-15T14:21:29.339
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.repository.RouteRepositoryTest,null,null,null
+
+
+# Created at 2020-05-15T14:21:29.342
+Unexpected IOException with stream: 2020-05-15 14:21:29.342  INFO 20444 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rhribeiro25.bestTrip.repository.RouteRepositoryTest], using DelegatingSmartContextLoader
+
+
+# Created at 2020-05-15T14:21:29.343
+Unexpected IOException with stream: 2020-05-15 14:21:29.343  INFO 20444 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rhribeiro25.bestTrip.repository.RouteRepositoryTest]: no resource found for suffixes {-context.xml}.
+
+
+# Created at 2020-05-15T14:21:29.344
+Unexpected IOException with stream: 2020-05-15 14:21:29.344  INFO 20444 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rhribeiro25.bestTrip.repository.RouteRepositoryTest]: RouteRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2020-05-15T14:21:29.346
+Unexpected IOException with stream: 2020-05-15 14:21:29.345  INFO 20444 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2020-05-15T14:21:29.347
+Unexpected IOException with stream: 2020-05-15 14:21:29.347  INFO 20444 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2ffb3aec, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@786ff1cb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@46039a21, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@431e86b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35c4e864, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32a2a6be, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@682af059, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f36c8e3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4da39ca9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6a9344f5]
+
+
+# Created at 2020-05-15T14:21:29.372
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.repository.RouteRepositoryTest,saveNewRouteTest(com.rhribeiro25.bestTrip.repository.RouteRepositoryTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.377
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.repository.RouteRepositoryTest,saveNewRouteTest(com.rhribeiro25.bestTrip.repository.RouteRepositoryTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.378
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.repository.RouteRepositoryTest,findAllTest(com.rhribeiro25.bestTrip.repository.RouteRepositoryTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.381
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.repository.RouteRepositoryTest,findAllTest(com.rhribeiro25.bestTrip.repository.RouteRepositoryTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.381
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.repository.RouteRepositoryTest,null,null,null
+
+
+# Created at 2020-05-15T14:21:29.382
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.service.RouteServiceTest,null,null,null
+
+
+# Created at 2020-05-15T14:21:29.383
+Unexpected IOException with stream: 2020-05-15 14:21:29.382  INFO 20444 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rhribeiro25.bestTrip.service.RouteServiceTest], using DelegatingSmartContextLoader
+
+
+# Created at 2020-05-15T14:21:29.383
+Unexpected IOException with stream: 2020-05-15 14:21:29.383  INFO 20444 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rhribeiro25.bestTrip.service.RouteServiceTest]: no resource found for suffixes {-context.xml}.
+
+
+# Created at 2020-05-15T14:21:29.384
+Unexpected IOException with stream: 2020-05-15 14:21:29.384  INFO 20444 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rhribeiro25.bestTrip.service.RouteServiceTest]: RouteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2020-05-15T14:21:29.386
+Unexpected IOException with stream: 2020-05-15 14:21:29.385  INFO 20444 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2020-05-15T14:21:29.387
+Unexpected IOException with stream: 2020-05-15 14:21:29.387  INFO 20444 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c9934da, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4cb702ce, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@383caf89, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@64c781a9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71ed560f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5b88b8e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@58253c57, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b73433, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1bf14704, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5a545b0f]
+
+
+# Created at 2020-05-15T14:21:29.392
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.service.RouteServiceTest,findBestPriceTest(com.rhribeiro25.bestTrip.service.RouteServiceTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.394
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.service.RouteServiceTest,findBestPriceTest(com.rhribeiro25.bestTrip.service.RouteServiceTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.395
+Unexpected IOException: 5,1,com.rhribeiro25.bestTrip.service.RouteServiceTest,saveNewRouteTest(com.rhribeiro25.bestTrip.service.RouteServiceTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.398
+Unexpected IOException: 6,1,com.rhribeiro25.bestTrip.service.RouteServiceTest,saveNewRouteTest(com.rhribeiro25.bestTrip.service.RouteServiceTest),null,null,null
+
+
+# Created at 2020-05-15T14:21:29.398
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.rhribeiro25.bestTrip.service.RouteServiceTest,null,null,null
+
+
